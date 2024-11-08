@@ -15,7 +15,7 @@
     
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-accent: #e07b16;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -44,8 +44,8 @@
 
 
 body {
-    background: var(--clr-light);
-    color: var(--clr-dark);
+    background: var(--clr-dark);
+    color: var(--clr-light);
     margin: 0;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
@@ -392,6 +392,7 @@ header {
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
 }
 
 .portfolio__item {
